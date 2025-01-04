@@ -1,30 +1,34 @@
+Here's the updated version with your GitHub link:
+
+---
+
 # Titanic Survival Prediction Project 🚢
 
-Welcome to the **Titanic Survival Prediction Project**! This repository demonstrates a machine learning workflow for predicting the survival of passengers aboard the Titanic based on various features. The project covers data cleaning, exploratory data analysis (EDA), model training, and evaluation using a custom Decision Tree algorithm.
+Welcome to the **Titanic Survival Prediction Project**! This repository demonstrates a machine learning workflow to predict the survival of Titanic passengers based on various features. The project includes steps like data cleaning, exploratory data analysis (EDA), model training, and evaluation using a custom Decision Tree classifier.
 
 ---
 
 ## 🗂️ Project Structure
 
-- **Section 1**: Import Necessary Libraries
-- **Section 2**: Load the Titanic Dataset
+- **Section 1**: Import Libraries
+- **Section 2**: Load Titanic Dataset
 - **Section 3**: Data Cleaning and Preprocessing
-- **Section 4**: Correlation Analysis for Feature Selection
-- **Section 5**: Prepare Train-Test Split
+- **Section 4**: Feature Selection via Correlation Analysis
+- **Section 5**: Train-Test Split Preparation
 - **Section 6**: Implement Custom Decision Tree Classifier
 - **Section 7**: Train the Decision Tree Model
-- **Section 8**: Evaluate Model Metrics
-- **Section 9**: Predict and Save Results
+- **Section 8**: Model Evaluation
+- **Section 9**: Make Predictions and Save Results
 
 ---
 
 ## 🔧 Libraries Used
 
-- **pandas**: For data manipulation and analysis
-- **numpy**: For numerical computations
-- **matplotlib**: For visualization
-- **seaborn**: For enhanced visualizations
-- **collections.Counter**: For counting elements in an iterable
+- **pandas**: Data manipulation and analysis
+- **numpy**: Numerical computations
+- **matplotlib**: Data visualization
+- **seaborn**: Enhanced visualization
+- **collections.Counter**: Counting elements in an iterable
 
 ---
 
@@ -33,7 +37,7 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 1. Clone the repository:
 
    ```bash
-  https://github.com/Astik83/Titanic_Survival_ML.git
+   git clone https://github.com/Astik83/Titanic_Survival_ML.git
    ```
 
 2. Navigate to the project directory:
@@ -42,7 +46,7 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
    cd Titanic_Survival_ML
    ```
 
-3. Ensure you have all required libraries installed:
+3. Install the required libraries:
 
    ```bash
    pip install pandas numpy matplotlib seaborn
@@ -51,7 +55,7 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 4. Run the Python script:
 
    ```bash
-   python Titanic_Survival_ML
+   python titanic_prediction.py
    ```
 
 ---
@@ -60,21 +64,21 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 
 ### 1. **Data Cleaning and Preprocessing**
 
-- **Gender Mapping**: Converted `Sex` into numeric values (1 for male, 0 for female).
-- **Missing Values**: Filled missing `Age` values with the mean.
-- **One-Hot Encoding**: Encoded categorical values for `Embarked`.
-- **Feature Reduction**: Dropped less correlated features like `SibSp` and `Age` based on the correlation matrix heatmap.
+- **Gender Mapping**: Converted `Sex` to numeric values (1 for male, 0 for female).
+- **Handling Missing Values**: Filled missing `Age` values with the mean.
+- **One-Hot Encoding**: Encoded categorical `Embarked` values.
+- **Feature Reduction**: Dropped low-correlation features such as `SibSp` and `Age` after examining the correlation matrix heatmap.
 
 ### 2. **Custom Decision Tree Classifier** 🌳
 
-- A fully implemented custom Decision Tree classifier capable of:
-  - Splitting data based on optimal thresholds.
-  - Calculating Gini Index for split evaluation.
-  - Recursively growing the tree up to a specified maximum depth.
+- A fully implemented Decision Tree classifier capable of:
+  - Splitting data based on the best threshold.
+  - Using the Gini Index for split evaluation.
+  - Recursively growing the tree up to a set maximum depth.
 
 ### 3. **Performance Evaluation** 📊
 
-- Metrics calculated on the training set:
+- Training set metrics:
   - **Accuracy**: 83.39%
   - **Precision**: 0.86
   - **Recall**: 0.68
@@ -82,7 +86,7 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 
 ### 4. **Results** 📂
 
-- Predictions for the test set are saved to `titanic_predictions.csv`.
+- Predictions for the test set are saved in `titanic_predictions.csv`.
 
 ---
 
@@ -99,9 +103,9 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 
 ## 🚀 Future Improvements
 
-- Implement advanced models like Random Forest or XGBoost.
-- Include hyperparameter tuning for improved performance.
-- Enhance visualizations for better interpretability.
+- Explore advanced models like Random Forest or XGBoost.
+- Incorporate hyperparameter tuning to optimize performance.
+- Improve visualizations for better interpretability.
 
 ---
 
@@ -109,8 +113,6 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 
 **Astik Shah**
 
--  Passionate About Web Development, AI, & ML
+- Passionate About Web Development, AI, & ML
 
-
-Thank you for exploring the Titanic Survival Prediction Project! 🌟.
-
+Thank you for exploring the Titanic Survival Prediction Project! 🌟
