@@ -33,13 +33,13 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/titanic-prediction.git
+  https://github.com/Astik83/Titanic_Survival_ML.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd titanic-prediction
+   cd Titanic_Survival_ML
    ```
 
 3. Ensure you have all required libraries installed:
@@ -51,7 +51,7 @@ Welcome to the **Titanic Survival Prediction Project**! This repository demonstr
 4. Run the Python script:
 
    ```bash
-   python titanic_prediction.py
+   python Titanic_Survival_ML
    ```
 
 ---
